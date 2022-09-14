@@ -1,0 +1,16 @@
+{
+    "name": "Creating my first extension",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.unoeste.br/*"
+            ],
+            "js": [
+                "scripts/content.js"
+            ]
+        }
+    ]
+}
